@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Careers • KH Group</title>
+  <meta name="description" content="KH Group — family-owned franchise business in Alberta.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <div class="brand">
+      <div class="logo" aria-hidden="true"></div>
+      <a href="index.html" style="color:var(--text);text-decoration:none;"><span>KH Group</span></a>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="team.html">Meet the Team</a>
+      <a href="careers.html">Careers</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="mobile-toggle" aria-label="Toggle Menu">☰</button>
+  </div>
+</nav>
+
+
+<section class="section container">
+  <div class="grid">
+    <div class="grid-8">
+      <div class="card">
+        <h2 class="h2">Grow with us</h2>
+        <p>We’re building teams who care about quality, speed, and kindness. If that sounds like you, we’d love to meet.</p>
+        <h3>Open Roles</h3>
+        <ul>
+          <li>Team Member — Front of House (All locations)</li>
+          <li>Baker — Morning Shifts</li>
+          <li>Shift Supervisor</li>
+        </ul>
+        <p class="muted">Customize this list in <code>careers.html</code>.</p>
+        <h3>Apply Now</h3>
+        <p>Use the quick form below (or email your resume to <a href="mailto:careers@khgrpsss.ca">careers@khgrpsss.ca</a>).</p>
+        <form action="mailto:careers@khgrpsss.ca" method="post" enctype="text/plain">
+          <div class="row">
+            <div><label>Full Name<br><input class="input" name="name" required></label></div>
+            <div><label>Email<br><input class="input" type="email" name="email" required></label></div>
+          </div>
+          <div class="row">
+            <div><label>Location<br><input class="input" name="location" placeholder="City or store"></label></div>
+            <div><label>Role<br>
+              <select class="input" name="role">
+                <option>Team Member</option>
+                <option>Baker</option>
+                <option>Shift Supervisor</option>
+              </select></label>
+            </div>
+          </div>
+          <label>Message<br><textarea class="input" name="message" rows="5" placeholder="Tell us about yourself"></textarea></label>
+          <div style="margin-top:10px"><button class="button" type="submit">Send Application</button></div>
+        </form>
+        <p class="muted" style="margin-top:10px">Tip: Switch to Formspree/Google Forms for uploads and tracking.</p>
+      </div>
+    </div>
+    <div class="grid-4">
+      <div class="card">
+        <h3 class="h2">Why KH Group</h3>
+        <ul>
+          <li>Flexible scheduling</li>
+          <li>Training & growth paths</li>
+          <li>Team meals & recognition</li>
+          <li>Community involvement</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:18px">
+      <div>
+        <div class="brand"><div class="logo" aria-hidden="true"></div><strong>KH Group</strong></div>
+        <p class="muted" style="margin-top:8px">Family-owned franchise group serving Alberta with heart, quality, and community care.</p>
+        <p class="muted">© <span id="y"></span> KH Group. All rights reserved.</p>
+      </div>
+      <div>
+        <strong>Company</strong>
+        <ul style="list-style:none;padding:0;margin:8px 0 0;line-height:1.9">
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">Meet the Team</a></li>
+          <li><a href="careers.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <strong>Contact</strong>
+        <ul style="list-style:none;padding:0;margin:8px 0 0;line-height:1.9">
+          <li><a href="mailto:info@khgrpsss.ca">info@khgrpsss.ca</a></li>
+          <li><a href="contact.html">Contact Form</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script>document.getElementById('y').textContent=(new Date).getFullYear()</script>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
